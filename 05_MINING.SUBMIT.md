@@ -76,8 +76,8 @@ __Binary Example__
 |0x04                         | 4               | OBJ-> Key-2-> Value-> Array[1]-> BytesLength |
 |0x01000000                   | 1               | OBJ-> Key-2-> Value-> Array[1]-> Bytes |
 |0x0D                         | [BYTES](https://github.com/MintPond/bos/blob/master/FORMAT.md#bytes) | OBJ-> Key-2-> Value-> Array[2]-> DataType |
-|0x04                         | 4               | OBJ-> Key-2-> Value-> Array[2]-> BytesLength |
-|0x01000000                   | 1               | OBJ-> Key-2-> Value-> Array[2]-> Bytes |
+|0x08                         | 8               | OBJ-> Key-2-> Value-> Array[2]-> BytesLength |
+|0x0100000000000000           | 1               | OBJ-> Key-2-> Value-> Array[2]-> Bytes |
 |0x0D                         | [BYTES](https://github.com/MintPond/bos/blob/master/FORMAT.md#bytes) | OBJ-> Key-2-> Value-> Array[3]-> DataType |
 |0x04                         | 4               | OBJ-> Key-2-> Value-> Array[3]-> BytesLength |
 |0xb9864e50                   |                 | OBJ-> Key-2-> Value-> Array[3]-> Bytes |
