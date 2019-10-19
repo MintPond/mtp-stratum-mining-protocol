@@ -13,7 +13,7 @@ __JSON Example__
 
 The params contain 2 optional items:
 - [0] _UserAgent_ - The user agent string of the miner software.
-- [1] _SubscriptionID_ - 128 bit subscription ID of previous connection if previous connection was recently lost - used to re-establish server side parameters of a lost connection. Server may or may not use this.
+- [1] _SubscriptionID_ - Subscription ID of previous connection if previous connection was recently lost - used to re-establish server side parameters of a lost connection. Server may or may not use this.
 
 __Binary Example Overview__
 ```
@@ -67,7 +67,7 @@ __JSON Response Example__
 ```
 
 The result contains 3 items:
-- [0] _SubscriptionID_ - 128 bit unique connection ID assigned by server.
+- [0] _SubscriptionID_ - Unique connection ID assigned by server. The number of bytes for the ID is determined by server implementation.
 - [1] _ExtraNonce1_ - 64-bit extra nonce 1 value assigned by server. This is a unique number assigned per connection and used within the coinbase to make the work each miner does unique.
 
 __Binary Response Example Overview__
