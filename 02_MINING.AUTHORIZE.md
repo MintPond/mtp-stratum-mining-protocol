@@ -46,7 +46,7 @@ __Binary Example__
 |0x10                         | 16              | OBJ-> Key-1-> Value-> StringLength |
 |0x6d696e696e672e617574686f72697a65 | "mining.authorize" | OBJ-> Key-1-> Value-> StringValue |
 |0x06                         | 6               | OBJ-> Key-2-> NameLength |
-|0x726573756c74               | "params"        | OBJ-> Key-2-> Name |
+|0x706172616d73               | "params"        | OBJ-> Key-2-> Name |
 |0x0E                         | [ARRAY](https://github.com/MintPond/bos/blob/master/FORMAT.md#array) | OBJ-> Key-2-> Value-> DataType|
 |0x02                         | 2               | OBJ-> Key-2-> Value-> ArrayCount|
 |0x0C                         | [STRING](https://github.com/MintPond/bos/blob/master/FORMAT.md#string) | OBJ-> Key-2-> Value-> Array[0]-> DataType |
@@ -89,7 +89,7 @@ __Binary Response Example__
 |0x06                         | [UINT8](https://github.com/MintPond/bos/blob/master/FORMAT.md#uint8) | OBJ-> Key-0-> Value-> DataType |
 |0x02                         | 2               | OBJ-> Key-0-> Value-> UInt8Value |
 |0x06                         | 6               | OBJ-> Key-1-> NameLength|
-|0x6D6574686F64               | "result"        | OBJ-> Key-1-> Name |
+|0x726573756c74               | "result"        | OBJ-> Key-1-> Name |
 |0x01                         | [BOOL](https://github.com/MintPond/bos/blob/master/FORMAT.md#bool) | OBJ-> Key-1-> Value-> DataType |
 |0x01                         | true            | OBJ-> Key-1-> Value-> BoolValue |
 |0x05                         | 5               | OBJ-> Key-2-> NameLength|

@@ -70,7 +70,7 @@ __Binary Example__
 |0x0D                         | 13              | OBJ-> Key-1-> Value-> StringLength |
 |0x6d696e696e672e6e6f74696679 | "mining.notify" | OBJ-> Key-1-> Value-> StringValue |
 |0x06                         | 6               | OBJ-> Key-2-> NameLength |
-|0x726573756c74               | "params"        | OBJ-> Key-2-> Name |
+|0x706172616d73               | "params"        | OBJ-> Key-2-> Name |
 |0x0E                         | [ARRAY](https://github.com/MintPond/bos/blob/master/FORMAT.md#array) | OBJ-> Key-2-> Value-> DataType|
 |0x09                         | 9               | OBJ-> Key-2-> Value-> ArrayCount|
 |0x0D                         | [BYTES](https://github.com/MintPond/bos/blob/master/FORMAT.md#bytes) | OBJ-> Key-2-> Value-> Array[0]-> DataType |
